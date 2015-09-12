@@ -9,6 +9,7 @@ install:
   - export PATH=$PWD:$PATH
   - cd ..
   - dub fetch unit-threaded --version=0.5.1
+  - dub fetch unit-threaded --version=0.4.0
   - dub fetch cerealed --version=0.6.1
   - git clone https://github.com/D-Programming-Language/dub.git
   - cd dub
